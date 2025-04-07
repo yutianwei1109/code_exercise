@@ -1,3 +1,3 @@
 # code_exercise
 C/C++、QT、IoT
-#Language：
+# 个人学习代码过程中自行实践的程序、对其他项目源码的拆解都会放在这个仓库里
