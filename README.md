@@ -24,7 +24,7 @@ code_exercise/
 │ ├── Linux_Kernel/ # Linux内核移植实践  
 │ ├── Device_Drivers/ # Linux设备驱动开发  
 │ ├── Mysql/ # mysql数据库  
-│ ├── Python
+│ ├── Python  
 │ └── Mini_Projects/ # 个人小型项目目录  
 ├── external_code/   
 │ ├── Project_A/   
