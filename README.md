@@ -23,6 +23,7 @@ code_exercise/
 │ ├── STM32/ # STM32嵌入式开发  
 │ ├── Linux_Kernel/ # Linux内核移植实践  
 │ ├── Device_Drivers/ # Linux设备驱动开发  
+│ ├── Mysql/ # mysql数据库时间
 │ └── Mini_Projects/ # 个人小型项目目录  
 ├── external_code/ # 外部代码引用  
 │ ├── Project_A/ # 完整外部项目引用  
@@ -35,9 +36,3 @@ code_exercise/
 │ └── eBooks/ # 电子书资源  
 ├── LICENSE  
 └── README.md  
-
-## Mini Projects / 小型项目
-| Project Name | Description|
-
-## External Code References / 外部代码引用
-| Directory | Source | License |
