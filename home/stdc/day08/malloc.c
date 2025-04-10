@@ -14,7 +14,7 @@ int main()
     *p = 10;
     *(p + 1) = 20;
 
-    printf("%d %d", p[0], p[1]);
+    printf("%d %d\n", p[0], p[1]);
 
     free(p);//释放内存
     p = NULL;//指针置空
