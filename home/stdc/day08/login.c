@@ -7,7 +7,7 @@ int main(int argc, char* argv[])
     if(argc != 3)
     {
         printf("错误的输入格式！\n"
-                "输入示例:%s <用户名> <密码>\n", argv[0]);
+               "输入示例:%s <用户名> <密码>\n", argv[0]);
         return 1;
     }
 
