@@ -13,3 +13,4 @@
 | file_open_close.c | 文件操作 开关 |  
 | write.c | 文件操作写 |  
 | read.c | 文件操作读 |  
+| fseek.c | 文件操作 变更文件读写位置 |  
