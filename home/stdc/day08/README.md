@@ -10,3 +10,5 @@
 | malloc.c | 动态内存分配 |  
 | calloc.c | 动态内存分配 |  
 | realloc.c | 动态内存分配 重新分配 |  
+| write.c | 文件操作写 |  
+| read.c | 文件操作读 |  
