@@ -4,8 +4,8 @@
 //对二级指针对应的存储区进行交换操作
 void swap_pointer(char** pp1, char** pp2)
 {
-    char* ptmp = *pp1;
-    *pp1 = *pp2, *pp2 = ptmp;
+    char* ptmp = NULL;
+    ptmp = *pp1, *pp1 = *pp2, *pp2 = ptmp;
 }
 
 int main()
