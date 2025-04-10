@@ -1,6 +1,8 @@
 //函数指针
 #include <stdio.h>
 
+typedef int (*pfunc_t)(int, int);//int (*)(int, int)类型起别名为pfunc_t
+
 int add(int a, int b)
 {
     return a + b;
@@ -21,7 +23,7 @@ int div(int a, int b)
     return a / b;
 }
 
-int calc(int x, int y, int (*p)(int, int))
+int calc(int x, int y, pfunc_t p)//pfunc_t p 等价于 int (*p)(int, int)
 {
     //x = 3, y = 5, p = add
     //x = 4, y = 1, p = sub
@@ -30,9 +32,9 @@ int calc(int x, int y, int (*p)(int, int))
 
 int main()
 {
-    //(1)调用第三方二进制文件
+    //(1)调用第三方库的函数指针
     //函数的名字表示函数的地址
-    int (* pf)(int, int) = add;
+    int (* pf)(int, int) = add;//可以用别名替换为pfunc_t pf;
     //通过函数指针调用函数
     printf("%d\n", p(3,5));
 
